@@ -1,0 +1,24 @@
+{
+  "name": "html-fetcher",
+  "version": "1.0.0",
+  "description": "Simple HTML fetch tool using Node.js, Express, and Axios",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["html", "scraper", "fetch", "nodejs", "express"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "latest",
+    "cors": "latest",
+    "fs": "latest",
+    "path": "latest",
+    "express": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
